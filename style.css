@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    align-items: center;
+    padding: 0 35px;
+    font-family: "Lexend Exa", serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+}
+
+.portfolio h1 {
+    font-size: 2.265rem;
+    line-height: 2.265rem;
+    font-weight: 400;
+    letter-spacing: -4%;
+    font-family: "Playball", serif;
+}
+
+.navlinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.navlinks li {
+    margin: 0px 5px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.main-heading {
+    font-family: 'Lexend Exa', serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: -2%;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+}
+
+.main-heading h1 {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.main-heading img{
+    border-radius: 10%;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.imageclass {
+    border-radius: 56px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 35px;
+    margin-bottom: 48px;
+}
+
+.box-design {
+    height: 333px;
+    width: 416px;
+}
+
+.box-design img {
+    height: 277px;
+    width: 100%;
+}
+
+.box-design :nth-child(1) {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.box-design :nth-child(2) {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+    background: radial-gradient(rgba(255, 255, 255, 1) 50%, rgba(173, 124, 0, 0.06) 100%);
+}
+
+.photo {
+    height: 900px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 800px;
+    height: 1028px;
+    margin-right: 10px;
+}
+
+.description {
+    width: 39rem;
+}
+
+.description h1 {
+    font-size: 64px;
+    font-weight: 300;
+    width: inherit;
+    margin-bottom: 30px;
+    font-family: 'Lexend Exa', serif;
+    line-height: 68px;
+}
+
+.description p {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-family: "Newsreader", serif;
+}
+
+.discover-btn {
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #ad7c00;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    font-family: 'Lexend Exa', serif;
+    cursor: pointer;
+}
+
+.touch {
+    width: 100%;
+    height: 392px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+}
+
+.under h1 {
+    margin: 50px;
+    font-family: "Lexend Exa", serif;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+.pp {
+    margin-right: 50px;
+    font-family: "Newsreader", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 39rem;
+}
+
+.dd {
+    text-align: center;
+    width: 1344px;
+    height: 424px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social p {
+    font-family: "Lexend Exa", serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 3rem;
+    letter-spacing: -1%;
+    margin-bottom: 3rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.form input {
+    width: 26.25rem;
+    height: 3rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    font-family: "Newsreader", serif;
+}
+
+.form ::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.36);
+}
+
+.form button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(173, 124, 0, 1);
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5rem;
+    font-family: 'Lexend Exa', serif;
+}
+
+.social-icons {
+    width: 208px;
+    height: 48px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-icons img {
+    height: 2.2rem;
+    width: 2.2rem;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-container {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.footer p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.footer button {
+    font-family: 'Lexend Exa', serif;
+    text-align: center;
+    padding: 12px 24px;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .main-heading h1 {
+        font-size: 6rem;
+    }
+
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        padding: 24px 20px;
+    }
+
+    .box-design {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .description {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .description h1 {
+        font-size: 2.5rem;
+    }
+
+    .photo {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer-container {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-heading h1 {
+        font-size: 4rem;
+    }
+
+    .row1, .row2, .row3 {
+        padding: 16px 10px;
+    }
+
+    .box-design {
+        width: 100%;
+        height: auto;
+    }
+
+    .description h1 {
+        font-size: 2rem;
+    }
+
+    .pp {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .navlinks {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main-heading h1 {
+        font-size: 3rem;
+        margin: 16px 0;
+    }
+
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .description h1 {
+        font-size: 1.8rem;
+    }
+
+    .footer p {
+        font-size: 1.1rem;
+    }
+
+    .social-icons {
+        gap: 1rem;
+    }
+}
